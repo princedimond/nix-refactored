@@ -2,5 +2,5 @@
   imports = [
     ./hardware-configuration.nix
   ];
-  networking.hostname = "template";
+  networking.hostName = "template";
 }

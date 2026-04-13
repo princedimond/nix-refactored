@@ -23,5 +23,6 @@
     microfetch
     fastfetch
     direnv
+    neovim
   ];
 }

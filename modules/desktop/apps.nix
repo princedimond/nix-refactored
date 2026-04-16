@@ -16,7 +16,6 @@
       ferdium
       bitwarden-desktop
       onlyoffice-desktopeditors
-      com.github.tchx84.flatseal
     ];
   };
 }

@@ -14,7 +14,7 @@
       vlc
       kdePackages.kate
       ferdium
-      bitwarden-deskop
+      bitwarden-desktop
       onlyoffice-bin
       flatseal
     ];

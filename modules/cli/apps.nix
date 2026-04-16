@@ -24,5 +24,6 @@
     fastfetch
     direnv
     neovim
+    bitwarden-cli
   ];
 }

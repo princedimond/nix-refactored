@@ -15,7 +15,7 @@
       kdePackages.kate
       ferdium
       bitwarden-desktop
-      onlyoffice-onlyoffice-desktopeditors
+      onlyoffice-desktopeditors
       flatseal
     ];
   };

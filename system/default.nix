@@ -4,5 +4,6 @@
     ./locale.nix
     ./nix-settings.nix
     ./users.nix
+    ./drivers
   ];
 }

@@ -12,7 +12,7 @@
       resources
       discord
       vlc
-      kate
+      kdePackages.kate
       ferdium
       bitwarden-deskop
       onlyoffice-bin

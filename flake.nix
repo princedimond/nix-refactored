@@ -2,9 +2,11 @@
   description = "pd-nix-refactored";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/release-25.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs-stable.url = "github:nixos/nixpkgs/release-25.11";
+    nixpkgs-master.url = "github:nixos/nixpkgs";
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.11";
+      url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -13,6 +15,8 @@
     {
       self,
       nixpkgs,
+      nixpkgs-stable,
+      nixpkgs-master,
       ...
     }@inputs:
     let
@@ -27,6 +31,14 @@
           {
             inherit username;
             inherit inputs;
+            stable = import nixpkgs-stable {
+              inherit system;
+              config.allowUnfree = true;
+            };
+            master = import nixpkgs-master {
+              inherit system;
+              config.allowUnfree = true;
+            };
           };
         modules = [
           ./hosts/template

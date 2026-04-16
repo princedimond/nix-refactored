@@ -16,7 +16,7 @@
       ferdium
       bitwarden-desktop
       onlyoffice-desktopeditors
-      #flatseal
+      flatseal
     ];
   };
 }

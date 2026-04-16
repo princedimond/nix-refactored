@@ -4,6 +4,7 @@
     ./system
     ./modules
     ./options.nix
+    inputs.home-manager.nixosModules.home-manager
   ];
 
   home-manager = {

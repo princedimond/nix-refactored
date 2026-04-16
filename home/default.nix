@@ -6,4 +6,5 @@
     ./dev
     ./gaming
   ];
+  home.stateVersion = "25.11";
 }

@@ -5,6 +5,7 @@
     ./modules
     ./options.nix
     inputs.home-manager.nixosModules.home-manager
+    inputs.catppuccin.nixosModules.catppuccin
   ];
 
   home-manager = {
@@ -16,6 +17,7 @@
     users.${username} = {
       imports = [
         ./home
+        inputs.catppuccin.homeModules.catppuccin
       ];
     };
   };

@@ -1,5 +1,0 @@
-{
-  programs.microfetch = {
-    enable = true;
-  };
-}

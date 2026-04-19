@@ -1,7 +1,6 @@
 {
   imports = [
     ./settings.nix
-    ./bookmarks.nix
-    ./extensions.nix
+    #./bookmarks.nix
   ];
 }

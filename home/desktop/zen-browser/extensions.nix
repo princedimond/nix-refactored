@@ -6,7 +6,7 @@
   ...
 }:
 {
-  config = lib.mkIf nixosConfig.roles.desktop.enable {
+  config = lib.mkIf nixosConfig.pd.roles.desktop.enable {
     programs.zen-browser.profiles.princedimond.extensions.packages =
       with inputs.firefox-addons.packages.${pkgs.stdenv.hostPlatform.system}; [
         ublock-origin

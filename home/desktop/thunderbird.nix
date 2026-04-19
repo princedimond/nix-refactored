@@ -1,6 +1,6 @@
 { lib, nixosConfig, ... }:
 {
-  config = lib.mkIf nixosConfig.roles.desktop.enable {
+  config = lib.mkIf nixosConfig.pd.roles.desktop.enable {
     programs.thunderbird = {
       enable = true;
       profiles.princedimond = {

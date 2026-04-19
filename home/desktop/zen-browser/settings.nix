@@ -6,7 +6,7 @@
   ...
 }:
 {
-  config = lib.mkIf nixosConfig.roles.desktop.enable {
+  config = lib.mkIf nixosConfig.pd.roles.desktop.enable {
     home.file."catppuccin-zen" = {
       target = ".config/zen/princedimond/chrome/catppuccin-zen";
       source = (

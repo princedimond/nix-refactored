@@ -18,6 +18,7 @@
       imports = [
         ./home
         inputs.catppuccin.homeModules.catppuccin
+        inputs.cosmic-manager.homeManagerModules.cosmic-manager
       ];
     };
   };

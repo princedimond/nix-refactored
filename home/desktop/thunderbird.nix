@@ -1,4 +1,4 @@
-{ lib, nixosConfig }:
+{ lib, nixosConfig, ... }:
 {
   config = lib.mkIf nixosConfig.roles.desktop.enable {
     programs.thunderbird = {

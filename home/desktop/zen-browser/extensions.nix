@@ -18,7 +18,7 @@
         clearurls
         privacy-badger
         return-youtube-dislikes
-        tampermonkey
+        #tampermonkey
         watchmarker-for-youtube
         #bandcamp-player-volume-control
         auto-tab-discard

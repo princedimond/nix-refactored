@@ -26,7 +26,7 @@
         DisablePocket = true;
         DisableTelemetry = true;
         DontCheckDefaultBrowser = true;
-        NoDefaultBookmarks = true;
+        NoDefaultBookmarks = false;
         EnableTrackingProtection = {
           Value = true;
           Locked = true;

@@ -2,7 +2,7 @@
 {
   config = lib.mkIf nixosConfig.pd.roles.desktop.enable {
     programs.zen-browser.profiles.princedimond.bookmarks = {
-      force = false;
+      force = true;
       settings = [
         {
           name = "Nix Sites";

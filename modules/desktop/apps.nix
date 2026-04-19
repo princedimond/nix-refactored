@@ -16,6 +16,7 @@
       ferdium
       bitwarden-desktop
       onlyoffice-desktopeditors
+      inputs.zen-browser.packages.x86_64-linux.default
     ];
   };
 }

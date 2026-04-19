@@ -1,5 +1,0 @@
-{
-  programs.gtk = {
-    enable = true;
-  };
-}

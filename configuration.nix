@@ -19,6 +19,7 @@
         ./home
         inputs.catppuccin.homeModules.catppuccin
         inputs.cosmic-manager.homeManagerModules.cosmic-manager
+        inputs.zen-browser.homeModules.zen-browser
       ];
     };
   };

@@ -24,7 +24,7 @@
         auto-tab-discard
         downthemall
         facebook-container
-        capital-one-eno
+        #capital-one-eno
         enhanced-h264ify
         tab-session-manager
         web-developer
